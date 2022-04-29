@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.admin{
+    background-color: #2B2F41;
+    color: white;
+}
+.title-page{
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+.btn-edit{
+    width: auto;
+    background-color: #516BEB;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-right: 8px;
+}
+.btn-delete{
+    width: auto;
+    background-color: #BE5257;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.modal{
+    color: white;
+}
+.modal-header{
+    background-color: #242837;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.modal-body{
+    background-color: #313547;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.modal-footer{
+    background-color: #313547;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;   
+}
+.modal-footer .btn-closes{
+    background-color: #A7AFD7;
+    color: white;
+}
+.modal-footer .btn-submit{
+    background-color: #516BEB;
+    color: white;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.home{
+    background-color: #2B2F41;
+    height: 880px;
+}
+.greeting{
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.greeting h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+.greeting p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.mini-stat{
+    border-radius: 10px;
+    color: white;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.mini-stat h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.mini-stat h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+
+}
+.icon-stat{
+    color: white;
+}
+.mini-stat-admin{
+    background: linear-gradient(294.72deg, #0CC8A0 0%, #313547 34.37%);
+}
+.mini-stat-customer{
+    background: linear-gradient(294.72deg, #B00CD0 0%, #313547 34.37%);
+}
+.mini-stat-product{
+    background: linear-gradient(294.72deg, #CA5459 0%, #313547 34.37%);
+}
+.mini-stat-order{
+    background: linear-gradient(294.72deg, #BFAF14 0%, #313547 34.37%);
+}
