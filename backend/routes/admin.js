@@ -67,16 +67,16 @@ app.post("/", auth, (req,res) => {
         password: md5(req.body.password)
     }
     admin.create(data)
-        .then(result => {
-            res.json({
-                message: "data has been inserted"
-            })
+    .then(result => {
+        res.json({
+        message: "data has been inserted"
+    })
+    })
+    .catch(error => {
+        res.json({
+        message: error.message
         })
-        .catch(error => {
-            res.json({
-                message: error.message
-            })
-        })
+    })
 })
 
 //endpoint untuk mengupdate data admin, METHOD: PUT, fuction: UPDATE
